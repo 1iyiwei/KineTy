@@ -6,7 +6,7 @@ import json
 ################ Set your path ################
 
 # Path to your project folder
-basedir = "~~~/dataset_construction"
+basedir = os.path.dirname(os.path.abspath(__file__)) #"~~~/dataset_construction"
 
 ################################################
 
